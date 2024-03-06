@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.flipkart.Flipkart_Automation.NoProductViewTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testProductView"/>
+        </methods>
+      </class> <!-- com.flipkart.Flipkart_Automation.NoProductViewTest -->
+      <class name="com.flipkart.Flipkart_Automation.ValidLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testLoginWithValidCredentials"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.flipkart.Flipkart_Automation.ValidLoginTest -->
+      <class name="com.flipkart.Flipkart_Automation.NoAddtoCartTest">
+        <methods>
+          <include name="NoAddToCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.flipkart.Flipkart_Automation.NoAddtoCartTest -->
+      <class name="com.flipkart.Flipkart_Automation.InvalidLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testLoginWithInvalidCredentials"/>
+        </methods>
+      </class> <!-- com.flipkart.Flipkart_Automation.InvalidLoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
